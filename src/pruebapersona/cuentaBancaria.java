@@ -59,6 +59,10 @@ public class cuentaBancaria {
             ingreso=0;
         }
     }
+	/*ESTE MÉTODO COMPRUEBA SI EL MOVIMIENTO ES DE
+	//MÁS DE  3000 EUROS Y 
+	//TE INDICA SI SE VA A AVISAR A HACIENDA
+	*/
     void retirada (float retirada){
         boolean volver=false;
         
