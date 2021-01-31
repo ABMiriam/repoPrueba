@@ -76,9 +76,9 @@ public class Persona {
         
     }
 
-    // Devuelve si es menor o no
-    public boolean esMenor() {
-        return this.edad < Persona.mayoriaEdad;
+    // Devuelve si es mayor o no
+    public boolean esMayor() {
+        return this.edad > Persona.mayoriaEdad;
     }
     
     
